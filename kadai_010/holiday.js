@@ -5,6 +5,7 @@ const  holidays_count = holidays.length;
 
 
 // for文の場合
+// holidaysは配列で0から始まるのでマイナス１で計算
 for (forCount = 0; forCount <= holidays_count - 1; forCount++ ) {
 
     console.log(holidays[forCount]);
@@ -13,6 +14,7 @@ for (forCount = 0; forCount <= holidays_count - 1; forCount++ ) {
 let whileCount = 0;
 
 // while文の場合
+// holidaysは配列で0から始まるのでマイナス１で計算
 while (whileCount <= holidays_count - 1) {
     console.log(holidays[whileCount]);
     whileCount++;
